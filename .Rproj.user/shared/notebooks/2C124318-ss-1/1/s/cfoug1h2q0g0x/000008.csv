@@ -1,0 +1,6 @@
+"0","# Alpha over time: "
+"0","alpha_over_time <- ggplot(data = dat_study, aes(time, alpha, color = block)) + geom_smooth() + "
+"0","  ggtitle(""Rate of Forgetting over time"") +  labs(x=""Time (min)"", y=""RoF"")"
+"0","alpha_over_time"
+"2","`geom_smooth()` using method = 'gam' and formula 'y ~ s(x, bs = ""cs"")'
+"

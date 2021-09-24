@@ -1,0 +1,13 @@
+"0",""
+"0","## DESCRIPTIVES ## "
+"0",""
+"0",""
+"0","# RT's over time: "
+"0","rt_over_time <- ggplot(data = dat_study, aes(time, rt, color = block)) + geom_smooth() + "
+"0","  ggtitle(""Reaction times over time"") +  labs(x=""Time (min)"", y=""RT (ms)"")"
+"0","rt_over_time"
+"2","`geom_smooth()` using method = 'gam' and formula 'y ~ s(x, bs = ""cs"")'
+"
+"2","Warning:"
+"2"," Removed 143 rows containing non-finite values (stat_smooth).
+"
