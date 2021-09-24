@@ -136,7 +136,7 @@ dat_study <-dat_study[(dat_study['block'] != 'C'),]     # do not analyse block C
 dat_study$time_bins <-floor(dat_study$time) + 1
 hist(dat_study$time)
 
-## DESCRIPTIVES ## 
+## DESCRIPTIVES, plots over time ## 
 
 
 # RT's over time: 
